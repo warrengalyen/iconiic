@@ -310,12 +310,11 @@ dependencies = [
 
 [[package]]
 name = "iconiic"
-version = "0.1.0"
+version = "0.0.1"
 dependencies = [
  "crossterm",
  "icns",
  "ico",
- "image 0.21.3",
  "nsvg",
  "png_encode_mini",
  "regex",
@@ -334,28 +333,10 @@ dependencies = [
  "lzw",
  "num-derive",
  "num-iter",
- "num-rational 0.1.42",
+ "num-rational",
  "num-traits",
  "png 0.12.0",
  "scoped_threadpool",
-]
-
-[[package]]
-name = "image"
-version = "0.21.3"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "35371e467cd7b0b3d1d6013d619203658467df12d61b0ca43cd67b743b1965eb"
-dependencies = [
- "byteorder",
- "gif",
- "jpeg-decoder",
- "lzw",
- "num-iter",
- "num-rational 0.2.4",
- "num-traits",
- "png 0.14.1",
- "scoped_threadpool",
- "tiff",
 ]
 
 [[package]]
@@ -435,7 +416,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "0bfa50149c05ca80b01c6a30452084a98d96279f911df8b6840bd18b068cc120"
 dependencies = [
  "cc",
- "image 0.19.0",
+ "image",
 ]
 
 [[package]]
@@ -476,17 +457,6 @@ version = "0.1.42"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "ee314c74bd753fc86b4780aa9475da469155f3848473a261d2d18e35245a784e"
 dependencies = [
- "num-integer",
- "num-traits",
-]
-
-[[package]]
-name = "num-rational"
-version = "0.2.4"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5c000134b5dbf44adc5cb772486d335293351644b801551abe8f75c84cfa4aef"
-dependencies = [
- "autocfg",
  "num-integer",
  "num-traits",
 ]
@@ -533,18 +503,6 @@ name = "png"
 version = "0.12.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "f54b9600d584d3b8a739e1662a595fab051329eff43f20e7d8cc22872962145b"
-dependencies = [
- "bitflags",
- "deflate 0.7.20",
- "inflate 0.4.5",
- "num-iter",
-]
-
-[[package]]
-name = "png"
-version = "0.14.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "63daf481fdd0defa2d1d2be15c674fbfa1b0fd71882c303a91f9a79b3252c359"
 dependencies = [
  "bitflags",
  "deflate 0.7.20",
@@ -719,18 +677,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "d40c6d1b69745a6ec6fb1ca717914848da4b44ae29d9b3080cbee91d72a69b14"
 dependencies = [
  "lazy_static",
-]
-
-[[package]]
-name = "tiff"
-version = "0.2.2"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "1e4834f28a0330cb9f3f2c87d2649dca723cb33802e2bdcf18da32759fbec7ce"
-dependencies = [
- "byteorder",
- "lzw",
- "num-derive",
- "num-traits",
 ]
 
 [[package]]

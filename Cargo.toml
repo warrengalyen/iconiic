@@ -1,11 +1,10 @@
 [package]
 name = "iconiic"
-version = "0.1.0"
+version = "0.0.1"
 authors = ["Warren Galyen <warrengalyen@github.com>"]
 edition = "2018"
 
 [dependencies]
-image = "0.21.0"
 regex = "1.4.2"
 zip = "0.5.8"
 png_encode_mini = "0.1.2"
