@@ -1,14 +1,10 @@
 [package]
 name = "iconiic"
-version = "0.0.1"
+version = "0.1.0"
 authors = ["Warren Galyen <warrengalyen@github.com>"]
 edition = "2018"
 
 [dependencies]
 regex = "1.4.2"
-zip = "0.5.8"
-png_encode_mini = "0.1.2"
-nsvg = "0.5.1"
-ico = "0.1.0"
-icns = "0.3.1"
+iconwriter = "0.1.4"
 crossterm = "0.7.0" 

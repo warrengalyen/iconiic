@@ -310,14 +310,23 @@ dependencies = [
 
 [[package]]
 name = "iconiic"
-version = "0.0.1"
+version = "0.1.0"
 dependencies = [
  "crossterm",
+ "iconwriter",
+ "regex",
+]
+
+[[package]]
+name = "iconwriter"
+version = "0.1.5"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "dbb96a18ed3957a441d0d3261b801300d76abfdcab40f9b5259b9d3a0d27b8d4"
+dependencies = [
  "icns",
  "ico",
  "nsvg",
  "png_encode_mini",
- "regex",
  "zip",
 ]
 
